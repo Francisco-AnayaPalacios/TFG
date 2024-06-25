@@ -5,7 +5,7 @@
 
 En este repositorio se encuentran los códigos desarrollados para este proyecto, así como los mapas generados.
 
-Edificio objeto del mapeado: Facultad ETSII UMA
+Edificio objeto del mapeado: Facultad ETSII UMA.
 
-Dirección: Bulevar Louis Pasteur, 35. Campus de Teatinos. 29071 Málaga
+Dirección: Bulevar Louis Pasteur, 35. Campus de Teatinos. 29071 Málaga.
 
