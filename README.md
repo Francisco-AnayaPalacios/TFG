@@ -14,4 +14,4 @@ Durante el desarrollo del presente Trabajo de Fin de Grado se han conseguido gen
 
 Dada la georreferenciación de los mapas, estos pueden ser utilizados para localización tanto en exteriores como en semiexteriores/interiores, implementando de forma interesante una localización absoluta en zonas en las que el sistema GPS puede no ser accesible.
 
-Esto tiene especial interés en navegación autónoma de forma precisa para vehículos en este tipo de entornos como coches autónomos y ugvs.
+Esto tiene especial interés en navegación autónoma de forma precisa en este tipo de entornos para vehículos  como coches autónomos y ugvs.
