@@ -14,4 +14,4 @@ combinación -> voxelización -> filtrado -> georreferenciación
 ### localization_node.py
 Define la pose odométrica según el ruido deseado y ejecuta ICP y define la pose estimada.
 
-Los códigos que terminan en *iterations_auto* y *voxel_size_auto* simplemente automatizan la ejecución para una lista de valores para el posterior análisis.
+Los códigos que terminan en **iterations_auto** y **voxel_size_auto** simplemente automatizan la ejecución para una lista de valores para el posterior análisis.
