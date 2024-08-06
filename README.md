@@ -11,8 +11,8 @@ En este repositorio se proporcionan los códigos desarrollados para el proyecto,
 
 #### LOGROS
 
-Durante el desarrollo del presente Trabajo de Fin de Grado se han conseguido generar mapas densos de puntos 3D con información tridimensional de gran detalle, los cuales se han podido analizar en aplicaciones de localización. Esto da lugar a un preciso sistema de localización de gran precisión con baja carga computacional.
+Durante el desarrollo del presente Trabajo de Fin de Grado se han conseguido generar mapas densos de puntos 3D con información tridimensional de gran detalle, los cuales se han podido analizar en aplicaciones de localización. Esto da lugar a un preciso sistema de localización con baja carga computacional.
 
 Dada la georreferenciación de los mapas, estos pueden ser utilizados para localización tanto en exteriores como en semiexteriores/interiores, implementando de forma interesante una localización absoluta en zonas en las que el sistema GPS puede no ser accesible.
 
-Esto tiene especial interés en navegación autónoma de forma precisa en este tipo de entornos para vehículos  como coches autónomos y ugvs.
+Esto tiene especial interés en navegación autónoma de forma precisa en este tipo de entornos para vehículos como coches autónomos y ugvs.
