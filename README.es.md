@@ -68,5 +68,5 @@ La metodología es aplicable más allá de un único robot:
 ### ⚙️ Cómo usar
 Clona el repositorio:  
 ```bash
-git clone https://github.com/PacoAnaya/TFG.git
+git clone https://github.com/PacoAnaya/TFG/CODES.git
 cd TFG
