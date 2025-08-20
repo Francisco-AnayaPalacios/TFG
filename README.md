@@ -1,12 +1,11 @@
-# 📚 Documentation – Final Degree Project (Bachelor’s Thesis)  
+# Final Degree Project (Bachelor’s Thesis)  
 ## 3D Outdoor Mapping with a Robot-Mounted LiDAR  
 
 **Official title in Spanish:**  
 *Construcción de mapas de exteriores con un LiDAR 3D embarcado en un robot móvil*  
 
-<p align="center">
-  <img src="https://github.com/Francisco-AnayaPalacios/TFG/assets/145780472/5b7bc1b5-85b5-442b-8fcf-9b03f0569dfe" width="750">
-</p>
+![GitHub top language](https://img.shields.io/github/languages/top/Francisco-AnayaPalacios/TFG) 
+![GitHub repo size](https://img.shields.io/github/repo-size/Francisco-AnayaPalacios/TFG)
 
 ---
 
@@ -60,7 +59,7 @@ The methodology is not limited to a single robot:
 
 ## 🖼️ Screenshots
 <p align="center">
-  <img src="https://github.com/PacoAnaya/TFG/assets/145780472/5b7bc1b5-85b5-442b-8fcf-9b03f0569dfe" width="700">
+  <img src="https://github.com/Francisco-AnayaPalacios/TFG/assets/145780472/5b7bc1b5-85b5-442b-8fcf-9b03f0569dfe" width="750">
 </p>
 
 *Point cloud overlaid with 3D building models and aerial photographs.*  
