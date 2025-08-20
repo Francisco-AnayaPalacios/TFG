@@ -1,25 +1,56 @@
-# BACHELOR'S THESIS REPOSITORY
-### 3D OUTDOOR MAPPING WITH A ROBOT-MOUNTED LIDAR
-
-**Languages:** [English](README.md) | [Español](README.es.md)
+# BACHELOR'S THESIS REPOSITORY  
+### 3D Outdoor Mapping with a Robot-Mounted LiDAR  
 
 **Official title in Spanish:**  
-*Construcción de mapas de exteriores con un LiDAR 3D embarcado en un robot móvil*
+*Construcción de mapas de exteriores con un LiDAR 3D embarcado en un robot móvil*  
 
-This repository contains the code developed for the project, as well as the generated maps.
-
-![Screenshot 2024-06-16 21:02:59](https://github.com/FranciscoAnayaPalacios/TFG/assets/145780472/5b7bc1b5-85b5-442b-8fcf-9b03f0569dfe)
-
-*Point cloud overlaid on a layer with 3D building models and a layer of photographs of the mapped area.*  
-*Mapped building: ETSII – University of Málaga.*  
-*Address: Bulevar Louis Pasteur, 35. Teatinos Campus. 29071 Málaga.*
+[![GitHub license](https://img.shields.io/github/license/PacoAnaya/TFG)](LICENSE) 
+![GitHub top language](https://img.shields.io/github/languages/top/PacoAnaya/TFG) 
+![GitHub repo size](https://img.shields.io/github/repo-size/PacoAnaya/TFG)
 
 ---
 
-## RESULTS
+## 📖 Table of Contents
+- [Overview](#overview)  
+- [Results](#results)  
+- [Screenshots](#screenshots)  
+- [How to Use](#how-to-use)  
+- [Achievements (Spanish)](#logros)  
+- [License](#license)
 
-During this thesis we generated dense 3D point-cloud maps with high geometric detail, which were successfully analyzed in localization applications. This enables an accurate localization pipeline with low computational load.
+---
 
-Because the maps are georeferenced, they can be used for localization both outdoors and in semi-outdoor/indoor environments, providing absolute localization where GPS may be unavailable.
+## Overview  
 
-This is particularly relevant for precise autonomous navigation in such environments for platforms like autonomous cars and UGVs.
+This repository contains the code and generated maps for my **Bachelor's Thesis** project at the *University of Málaga (ETSII)*.  
+
+The project focuses on **building dense 3D point-cloud maps** using a robot-mounted LiDAR sensor. These maps are georeferenced and can be applied to **outdoor, semi-outdoor, and indoor localization**, even where GPS is not available.  
+
+---
+
+## Results  
+
+- ✅ Dense 3D point-cloud maps with high geometric detail.  
+- ✅ Efficient localization with low computational load.  
+- ✅ Georeferenced maps usable for GPS-denied environments.  
+- ✅ Potential applications in **autonomous navigation** (cars, UGVs, robotics).  
+
+---
+
+## Screenshots  
+
+<p align="center">
+  <img src="https://github.com/PacoAnaya/TFG/assets/145780472/5b7bc1b5-85b5-442b-8fcf-9b03f0569dfe" width="700">
+</p>
+
+*Point cloud overlaid with 3D building models and aerial photographs.*  
+*Mapped building: ETSII – University of Málaga (Campus de Teatinos).*  
+
+---
+
+## How to Use  
+
+Clone the repository:  
+```bash
+git clone https://github.com/PacoAnaya/TFG.git
+cd TFG
