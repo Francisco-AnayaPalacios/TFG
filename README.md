@@ -67,15 +67,21 @@ The methodology is not limited to a single robot:
 ---
 
 ## 📂 Published Datasets
-The datasets generated during this project (point clouds, processed maps, and related experiments) have been **published on Zenodo** to ensure reproducibility and open access for the research community.  
+We provide the **Mobile Robot Dataset with Ouster OS1-32 LiDAR** collected at the **University of Málaga**.  
+It contains sensory data (RGB, IMU, GPS, LiDAR metadata) from a **Hunter 2.0 UGV** equipped with an **Ouster OS1-32**.  
+The dataset is published in **Zenodo**: [https://doi.org/10.5281/zenodo.15301791](https://doi.org/10.5281/zenodo.15301791).  
 
-- **Zenodo DOI:** [10.5281/zenodo.15301791](https://doi.org/10.5281/zenodo.15301791)  
-- **Repository link:** [Zenodo record page](https://zenodo.org/records/15301791)  
+📂 More details in [`DATASETS/README.md`](./DATASETS/README.md).  
 
-The datasets include:  
-- Raw and processed **3D point clouds**.  
-- Maps generated through **ICP** and **Fast-LIO2**.  
-- Example trajectories and experiments for benchmarking.
+**Citation:**  
+```bibtex
+@dataset{anaya2025ouster,
+  author    = {Anaya Palacios, Francisco and Galindo, Cipriano and González-Jiménez, Javier},
+  title     = {Mobile Robot Dataset with Ouster OS1-32 LiDAR at the University of Málaga},
+  year      = {2025},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.15301791}
+}
 
 ---
 
