@@ -5,8 +5,9 @@
 *Construcción de mapas de exteriores con un LiDAR 3D embarcado en un robot móvil*  
 
 <p align="center">
-  <img src="https://github.com/Francisco-AnayaPalacios/TFG/assets/145780472/5b7bc1b5-85b5-442b-8fcf-9b03f0569dfe" width="750">
+  <img width="1842" height="740" alt="image" src="https://github.com/user-attachments/assets/a252fdda-e340-44af-afd0-f5c19f55e877" width="750">
 </p>
+
 
 ![GitHub top language](https://img.shields.io/github/languages/top/Francisco-AnayaPalacios/TFG) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Francisco-AnayaPalacios/TFG)
