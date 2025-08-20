@@ -32,7 +32,7 @@ The generated maps are **georeferenced**, which allows them to be exploited in *
 - **Frameworks & Middleware:** ROS 2 (Robot Operating System), PCL (Point Cloud Library)  
 - **Algorithms & SLAM Approaches:** Iterative Closest Point (ICP), Fast-LIO2 (LiDAR-Inertial Odometry)  
 - **Hardware:** 3D LiDAR sensor mounted on a mobile robot  
-- **Visualization & Simulation:** RViz, Gazebo  
+- **Visualization & Simulation:** RViz  
 - **Data Processing:** NumPy, Open3D, Matplotlib  
 
 ---
