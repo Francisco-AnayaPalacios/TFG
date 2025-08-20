@@ -29,26 +29,28 @@ The generated maps are **georeferenced**, which allows them to be exploited in *
 - High-resolution **3D point-cloud maps** with detailed geometric information.  
 - Robust scan registration using **ICP** algorithms.  
 - Efficient localization with **low computational overhead**.  
+- Same precision maintained across all axes (X, Y, Z), unlike GPS, which has **lower accuracy in altitude**.  
 - Demonstrated applicability to **autonomous navigation** tasks in complex environments.  
 
 ---
 
 ### 🛑 Problem Addressed
-Traditional **GPS-based localization** is unreliable or impossible in many robotics applications:  
-- Urban canyons (multipath, low satellite visibility).  
-- Indoors or semi-indoor areas (garages, tunnels).  
-- Safety- or privacy-constrained zones where GPS use is restricted.  
+Traditional **GPS-based localization** presents significant limitations:  
+- **Urban canyons** (multipath, poor satellite visibility).  
+- **Indoor and semi-indoor areas** (garages, tunnels).  
+- **Altitude navigation**, where GPS accuracy strongly decreases in the vertical axis.  
 
-This implementation provides a **LiDAR-based alternative**, enabling precise **absolute localization** where GPS is unavailable.  
+This implementation provides a **LiDAR-based alternative**, offering consistent **absolute localization** with the **same precision in all axes**, making it especially useful in high-altitude navigation scenarios.  
 
 ---
 
 ### 🔮 Possible Future Implementations
 The methodology is not limited to a single robot:  
-- **Multi-robot fleets:** once a building or environment has been mapped, the **3D model can be reused**, enabling any robot to localize without remapping.  
-- **Autonomous vehicle navigation:** robust backup system in **GPS-denied zones**.  
-- **Rescue robotics & industrial inspection:** reliable navigation in collapsed structures or mines.  
-- **Smart infrastructure:** integration with digital twins and urban planning.  
+- **Multi-robot fleets:** once an environment has been mapped, the **3D model can be reused**, allowing other robots to localize without remapping.  
+- **Autonomous vehicles:** robust backup system in **GPS-denied zones**, especially relevant for drones or ground robots operating in altitude-sensitive tasks.  
+- **High-altitude navigation:** precise localization in vertical structures (e.g., tall buildings, towers, industrial plants) where GPS becomes unreliable.  
+- **Rescue robotics & industrial inspection:** reliable navigation in collapsed structures, underground tunnels, or multi-level environments.  
+- **Smart infrastructure:** integration with digital twins and urban planning systems.  
 
 ---
 
