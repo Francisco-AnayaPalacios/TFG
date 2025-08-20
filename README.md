@@ -66,7 +66,8 @@ The methodology is not limited to a single robot:
 
 ---
 
-## 📂 Published Datasets
+## 📊 Published Datasets
+
 We provide the **Mobile Robot Dataset with Ouster OS1-32 LiDAR** collected at the **University of Málaga**.  
 It contains sensory data (RGB, IMU, GPS, LiDAR metadata) from a **Hunter 2.0 UGV** equipped with an **Ouster OS1-32**.  
 The dataset is published in **Zenodo**: [https://doi.org/10.5281/zenodo.15301791](https://doi.org/10.5281/zenodo.15301791).  
@@ -74,6 +75,7 @@ The dataset is published in **Zenodo**: [https://doi.org/10.5281/zenodo.15301791
 📂 More details in [`DATASETS/README.md`](./DATASETS/README.md).  
 
 **Citation:**  
+
 ```bibtex
 @dataset{anaya2025ouster,
   author    = {Anaya Palacios, Francisco and Galindo, Cipriano and González-Jiménez, Javier},
@@ -82,6 +84,7 @@ The dataset is published in **Zenodo**: [https://doi.org/10.5281/zenodo.15301791
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.15301791}
 }
+```
 
 ---
 
