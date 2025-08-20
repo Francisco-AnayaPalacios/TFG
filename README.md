@@ -8,6 +8,10 @@
   <img width="1842" height="740" alt="image" src="https://github.com/user-attachments/assets/a252fdda-e340-44af-afd0-f5c19f55e877" width="750">
 </p>
 
+<p align="center">
+  <em>Point cloud generated overlaid with 3D building models and aerial photographs of the mapped area.  
+  Target building: ETSII Faculty, University of Málaga (Bulevar Louis Pasteur 35, Campus de Teatinos, 29071 Málaga).</em>
+</p>
 
 ![GitHub top language](https://img.shields.io/github/languages/top/Francisco-AnayaPalacios/TFG) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Francisco-AnayaPalacios/TFG)
