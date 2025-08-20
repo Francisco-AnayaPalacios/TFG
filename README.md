@@ -1,18 +1,25 @@
-# REPOSITORIO DE TRABAJO DE FIN DE GRADO
-### CONSTRUCCIÓN DE MAPAS DE EXTERIORES CON UN LIDAR 3D EMBARCADO EN UN ROBOT MÓVIL
+# BACHELOR'S THESIS REPOSITORY
+### 3D OUTDOOR MAPPING WITH A ROBOT-MOUNTED LIDAR
 
-En este repositorio se proporcionan los códigos desarrollados para el proyecto, así como los mapas generados.
+**Languages:** [English](README.md) | [Español](README.es.md)
 
-![Captura de pantalla 2024-06-16 210259](https://github.com/FranciscoAnayaPalacios/TFG/assets/145780472/5b7bc1b5-85b5-442b-8fcf-9b03f0569dfe)
+**Official title in Spanish:**  
+*Construcción de mapas de exteriores con un LiDAR 3D embarcado en un robot móvil*
 
-*Mapa de puntos generado en superposición a una capa con modelos 3D de edificios y a una capa de fotografías de la zona mapeada.*
-*Edificio objeto del mapeado: Facultad ETSII UMA.*
-*Dirección: Bulevar Louis Pasteur, 35. Campus de Teatinos. 29071 Málaga.*
+This repository contains the code developed for the project, as well as the generated maps.
 
-#### LOGROS
+![Screenshot 2024-06-16 21:02:59](./assets/map.png)
 
-Durante el desarrollo del presente Trabajo de Fin de Grado se han conseguido generar mapas densos de puntos 3D con información tridimensional de gran detalle, los cuales se han podido analizar en aplicaciones de localización. Esto da lugar a un preciso sistema de localización con baja carga computacional.
+*Point cloud overlaid on a layer with 3D building models and a layer of photographs of the mapped area.*  
+*Mapped building: ETSII – University of Málaga.*  
+*Address: Bulevar Louis Pasteur, 35. Teatinos Campus. 29071 Málaga.*
 
-Dada la georreferenciación de los mapas, estos pueden ser utilizados para localización tanto en exteriores como en semiexteriores/interiores, implementando de forma interesante una localización absoluta en zonas en las que el sistema GPS puede no ser accesible.
+---
 
-Esto tiene especial interés en navegación autónoma de forma precisa en este tipo de entornos para vehículos como coches autónomos y ugvs.
+## RESULTS
+
+During this thesis we generated dense 3D point-cloud maps with high geometric detail, which were successfully analyzed in localization applications. This enables an accurate localization pipeline with low computational load.
+
+Because the maps are georeferenced, they can be used for localization both outdoors and in semi-outdoor/indoor environments, providing absolute localization where GPS may be unavailable.
+
+This is particularly relevant for precise autonomous navigation in such environments for platforms like autonomous cars and UGVs.
