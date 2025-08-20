@@ -70,12 +70,5 @@ This document compiles the main **results, graphs, and conclusions** obtained du
 
 ---
 
-## 6️⃣ Future Work
-- Extend tests to **larger environments** and **multi-level buildings**.  
-- Incorporate **sensor fusion** with cameras (LiDAR + vision).  
-- Deploy in **multi-robot cooperative mapping scenarios**.  
-- Apply to **rescue robotics** and **industrial inspection**.  
 
----
-
-📌 For additional details, refer to the full thesis document and annexes in [`/DOCS/THESIS`](../THESIS).
+📌 For additional details, refer to the full thesis document and annexes in DOCUMENTATION.
