@@ -1,74 +1,93 @@
-# 📊 Experimental Results & Analysis
+# 📊 Experimental Results & Analysis  
 
-This document compiles the main **results, graphs, and conclusions** obtained during the development of the project:
-
-**Official project title (UMA):**  
-*Construcción de mapas de exteriores con un LiDAR 3D embarcado en un robot móvil*  
+This section compiles the **main experimental results, graphs, and conclusions** obtained during the project *Construcción de mapas de exteriores con un LiDAR 3D embarcado en un robot móvil*.  
 
 ---
 
-## 1️⃣ Objectives of the Experiments
-- Validate the performance of the **ICP-based localization**.  
-- Evaluate the accuracy of **Fast-LIO2 (LiDAR-Inertial Odometry)**.  
-- Compare **LiDAR-based localization** against traditional **GPS-based systems**.  
-- Assess computational load and feasibility for **real-time navigation**.  
+## 1️⃣ Mapping Experiments  
 
----
+Two mapping sessions were carried out at the **ETSII Faculty, University of Málaga**:  
 
-## 2️⃣ Metrics Used
-- **RMSE (Root Mean Square Error):** precision of point registration.  
-- **Fitness score (ICP):** quality of cloud alignment.  
-- **Number of iterations (ICP):** convergence efficiency.  
-- **Computation time:** average time per scan matching.  
-- **Map density (points/m²):** spatial detail in generated environments.  
+- **Mapping 1 – Outdoor courtyard**  
+  - Distance traveled: **90.80 m**  
+  - Generated a dense point cloud of the exterior patio.  
 
----
+- **Mapping 2 – Entire building**  
+  - Distance traveled: **959.18 m**  
+  - Complete 3D reconstruction of the faculty’s building.  
 
-## 3️⃣ Key Graphs & Results
+Both datasets were later **post-processed** (combination, filtering, voxelization, and georeferencing).  
 
-### ICP Convergence
 <p align="center">
-  <img src="./images/icp_convergence.png" width="600">
+  <img src="./images/mapping_results.png" width="700">
+</p>  
+
+---
+
+## 2️⃣ Post-Processing Results  
+
+- **Combination:** merged partial maps into large-scale environments.  
+- **Filtering:** removed outliers and enabled sectional visualizations at specific heights.  
+- **Voxelization:** reduced dataset size while preserving geometric detail.  
+- **Georeferencing:** aligned point clouds with **EPSG:4326 → EPSG:25830**, enabling integration with **ArcGIS**.  
+
+📌 Example: Mapa 2 compared against official 3D building models, showing high spatial consistency.  
+
+<p align="center">
+  <img src="./images/postprocessing.png" width="700">
+</p>  
+
+---
+
+## 3️⃣ Localization Experiments  
+
+The generated maps were validated in **localization tasks** using **Iterative Closest Point (ICP)**.  
+
+### ICP with 10 iterations
+- Produced a stable but less accurate registration.  
+- Comparison between **Ground Truth (Fast-LIO2)**, **Noisy Odometry**, and **ICP Estimated pose** showed partial correction of errors.  
+
+<p align="center">
+  <img width="1978" height="927" alt="image" src="https://github.com/user-attachments/assets/cd4f01d4-3e76-4c36-a913-6f773f4bf678" width="700"/>
 </p>
 
-- ICP converges in **X iterations on average**, ensuring stable scan matching.  
-- RMSE consistently below **Y cm**, validating high accuracy.  
-
----
-
-### Comparison: LiDAR vs GPS
 <p align="center">
-  <img src="./images/lidar_vs_gps.png" width="600">
+  <img width="2051" height="811" alt="image" src="https://github.com/user-attachments/assets/4216275a-99b0-4363-ae7e-55ac7f563d2a" width="700"/>
 </p>
 
-- **GPS:** error grows significantly in the **Z (altitude)** axis.  
-- **LiDAR + ICP/Fast-LIO2:** keeps uniform precision across **X, Y, and Z**, critical for **high-altitude navigation**.  
+### ICP with 1000 iterations
+- Significantly improved trajectory alignment.  
+- RMSE error decreased as iteration count increased.  
 
----
-
-### Map Density
 <p align="center">
-  <img src="./images/map_density.png" width="600">
+  <img width="2112" height="1004" alt="image" src="https://github.com/user-attachments/assets/455ea990-2a19-47fe-a8b9-b54babb20560" width="700"/>
 </p>
 
-- Generated point clouds contain **N points/m²**.  
-- This density allows precise localization with low computational overhead.  
+<p align="center">
+  <img width="2053" height="839" alt="image" src="https://github.com/user-attachments/assets/1746b0c2-93fe-4553-bb77-282688da936c" width="700"/>
+</p>
+
+### Effect of voxelization size
+- Smaller voxel sizes → higher accuracy but longer computation time.  
+- Larger voxel sizes → reduced computation time but loss of detail.  
+
+<p align="center">
+  <img width="2361" height="1021" alt="image" src="https://github.com/user-attachments/assets/4cbb6b76-b6ba-4cb0-bb97-418222faaad1" width="700">
+</p>  
 
 ---
 
-## 4️⃣ Discussion
-- **High-altitude navigation:** LiDAR-based approach outperforms GPS, which shows vertical errors of up to several meters.  
-- **Computational efficiency:** ICP and Fast-LIO2 allow **real-time execution** with modest hardware.  
-- **Robustness:** works reliably in **urban canyons, tunnels, or semi-indoor areas** where GPS fails.  
+## 5️⃣ Conclusions  
+
+- ✅ Achieved construction of **dense, georeferenced 3D point-cloud maps**.  
+- ✅ Demonstrated applicability for **localization** using ICP.  
+- ✅ Validated accuracy and robustness compared to GPS, especially in altitude-sensitive navigation.  
+
+### 🔮 Future Work  
+- Real-time (online) map generation.  
+- Integration of additional data (color, texture).  
+- Deployment in **autonomous navigation pipelines**.  
 
 ---
 
-## 5️⃣ Conclusions
-- Developed pipeline achieves **highly accurate 3D mapping** suitable for autonomous navigation.  
-- Demonstrated a **practical alternative to GPS**, especially in **altitude-sensitive scenarios**.  
-- Provides a foundation for **multi-robot fleets** and **smart infrastructure** integration.  
-
----
-
-
-📌 For additional details, refer to the full thesis document and annexes in DOCUMENTATION.
+📌 For complete details, see the **main thesis document** in `DOCUMENTATION/` and video demonstrations in the [YouTube channel](https://www.youtube.com/@FranciscoAnaya-mi3le).  
