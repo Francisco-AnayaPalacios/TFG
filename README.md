@@ -8,7 +8,7 @@
 
 This repository contains the code developed for the project, as well as the generated maps.
 
-![Screenshot 2024-06-16 21:02:59](./assets/map.png)
+![Screenshot 2024-06-16 21:02:59](https://github.com/FranciscoAnayaPalacios/TFG/assets/145780472/5b7bc1b5-85b5-442b-8fcf-9b03f0569dfe)
 
 *Point cloud overlaid on a layer with 3D building models and a layer of photographs of the mapped area.*  
 *Mapped building: ETSII – University of Málaga.*  
