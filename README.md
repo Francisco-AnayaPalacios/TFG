@@ -70,6 +70,7 @@ The methodology is not limited to a single robot:
 ```bash
 TFG/
  ├── CODES/   → Source code (ICP, Fast-LIO2, ROS2 nodes, processing tools)  
- ├── MAPS/    → Generated point-cloud maps  
- ├── DOCS/    → Presentation, videos, annexes  
+ ├── MAPS/    → Generated point-cloud post-processed maps  
+ ├── DOCS/    → Presentation, videos, annexes
+ ├── RESULTS/ → Detailed Results, Graphics & Conclusions
  └── README.md
