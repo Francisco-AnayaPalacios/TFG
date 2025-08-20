@@ -68,9 +68,11 @@ The methodology is not limited to a single robot:
 
 ## 📊 Published Datasets
 
-As part of this thesis, we collected and published the **Mobile Robot Dataset with an Ouster OS1-32 LiDAR**, recorded at the **University of Málaga** using a **Hunter 2.0 UGV**. The dataset covers ~1 km of trajectories inside the Computer Science building, and includes **RGB images, IMU, GPS (when available), and LiDAR metadata** that can be reconstructed into full 3D point clouds using the official Ouster utilities.  
+Within the scope of this thesis, a **Mobile Robot Dataset** was collected using an **Ouster OS1-32 LiDAR sensor** mounted on a **Hunter 2.0 UGV (AgileX Robotics)** at the **University of Málaga**. The platform was manually driven along ~1 km trajectories inside the Computer Science building, acquiring **RGB images, IMU, GPS (when available), and LiDAR metadata**. Although raw point clouds are not included due to size constraints, they can be reconstructed using the official Ouster utilities, enabling reproducible 3D mapping.  
 
-The dataset is openly available in **Zenodo** under DOI: [10.5281/zenodo.15301791](https://doi.org/10.5281/zenodo.15301791), ensuring reproducibility and serving as a resource for the robotics and SLAM research community.  
+The dataset has been curated and made publicly available to support **benchmarking, validation, and further research** in SLAM, robot localization, and 3D perception.  
+
+📎 [Access the dataset on Zenodo (DOI: 10.5281/zenodo.15301791)](https://doi.org/10.5281/zenodo.15301791)
 
 ---
 
