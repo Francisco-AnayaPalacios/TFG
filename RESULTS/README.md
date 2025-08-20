@@ -19,7 +19,7 @@ Two mapping sessions were carried out at the **ETSII Faculty, University of Mál
 Both datasets were later **post-processed** (combination, filtering, voxelization, and georeferencing).  
 
 <p align="center">
-  <img src="./images/mapping_results.png" width="700">
+  <img width="1896" height="861" alt="image" src="https://github.com/user-attachments/assets/9c7698a0-4207-4db5-b8f7-1273498d00f2" width="700">
 </p>  
 
 ---
@@ -34,8 +34,8 @@ Both datasets were later **post-processed** (combination, filtering, voxelizatio
 📌 Example: Mapa 2 compared against official 3D building models, showing high spatial consistency.  
 
 <p align="center">
-  <img src="./images/postprocessing.png" width="700">
-</p>  
+  <img width="1040" height="519" alt="image" src="https://github.com/user-attachments/assets/6beec650-55b1-4b79-939a-40ebf2aeb7ca" width="700">
+</p> 
 
 ---
 
