@@ -17,17 +17,38 @@
 ---
 
 ### 📖 Overview
-This repository contains the code and generated maps for my **Final Degree Project (Bachelor’s Thesis)** at the *University of Málaga (ETSII)*.  
+This project consists of the development of a **LiDAR-based mapping and localization pipeline** implemented as my **Final Degree Project (Bachelor’s Thesis)** at the *University of Málaga (ETSII)*.  
 
-The project focuses on **building dense 3D point-cloud maps** using a robot-mounted LiDAR sensor. These maps are georeferenced and can be applied to **outdoor, semi-outdoor, and indoor localization**, even where GPS is not available.  
+The system focuses on generating **dense 3D point-cloud maps** of outdoor environments using a robot-mounted LiDAR sensor. The mapping process integrates algorithms such as **Iterative Closest Point (ICP)** for scan matching and alignment, and leverages common robotics frameworks (**ROS**, **PCL**) to achieve scalable and accurate results.  
+
+The generated maps are **georeferenced**, which allows them to be exploited in **outdoor, semi-outdoor, and indoor environments**, even in **GPS-denied scenarios**.  
 
 ---
 
 ### ✅ Results
-- Dense 3D point-cloud maps with high geometric detail.  
-- Efficient localization with low computational load.  
-- Georeferenced maps usable for GPS-denied environments.  
-- Potential applications in **autonomous navigation** (cars, UGVs, robotics).  
+- High-resolution **3D point-cloud maps** with detailed geometric information.  
+- Robust scan registration using **ICP** algorithms.  
+- Efficient localization with **low computational overhead**.  
+- Demonstrated applicability to **autonomous navigation** tasks in complex environments.  
+
+---
+
+### 🛑 Problem Addressed
+Traditional **GPS-based localization** is unreliable or impossible in many robotics applications:  
+- Urban canyons (multipath, low satellite visibility).  
+- Indoors or semi-indoor areas (garages, tunnels).  
+- Safety- or privacy-constrained zones where GPS use is restricted.  
+
+This implementation provides a **LiDAR-based alternative**, enabling precise **absolute localization** where GPS is unavailable.  
+
+---
+
+### 🔮 Possible Future Implementations
+The methodology is not limited to a single robot:  
+- **Multi-robot fleets:** once a building or environment has been mapped, the **3D model can be reused**, enabling any robot to localize without remapping.  
+- **Autonomous vehicle navigation:** robust backup system in **GPS-denied zones**.  
+- **Rescue robotics & industrial inspection:** reliable navigation in collapsed structures or mines.  
+- **Smart infrastructure:** integration with digital twins and urban planning.  
 
 ---
 
