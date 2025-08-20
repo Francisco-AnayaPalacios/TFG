@@ -10,8 +10,8 @@
 **Official title in Spanish:**  
 *Construcción de mapas de exteriores con un LiDAR 3D embarcado en un robot móvil*  
 
-![GitHub top language](https://img.shields.io/github/languages/top/PacoAnaya/TFG) 
-![GitHub repo size](https://img.shields.io/github/repo-size/PacoAnaya/TFG)
+![GitHub top language](https://img.shields.io/github/languages/top/Francisco-AnayaPalacios/TFG) 
+![GitHub repo size](https://img.shields.io/github/repo-size/Francisco-AnayaPalacios/TFG)
 
 ---
 
