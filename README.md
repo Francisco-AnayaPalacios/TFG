@@ -18,9 +18,19 @@
 ### 📖 Overview
 This project consists of the development of a **LiDAR-based mapping and localization pipeline** implemented as my **Final Degree Project (Bachelor’s Thesis)** at the *University of Málaga (ETSII)*.  
 
-The system focuses on generating **dense 3D point-cloud maps** of outdoor environments using a robot-mounted LiDAR sensor. The mapping process integrates algorithms such as **Iterative Closest Point (ICP)** for scan matching and alignment, and leverages common robotics frameworks (**ROS**, **PCL**) to achieve scalable and accurate results.  
+The system focuses on generating **dense 3D point-cloud maps** of outdoor environments using a robot-mounted LiDAR sensor. The mapping process integrates algorithms such as **Iterative Closest Point (ICP)** for scan matching and alignment, and leverages advanced SLAM approaches like **Fast-LIO2** (LiDAR-Inertial Odometry) within **ROS 2** and **PCL**.  
 
 The generated maps are **georeferenced**, which allows them to be exploited in **outdoor, semi-outdoor, and indoor environments**, even in **GPS-denied scenarios**.  
+
+---
+
+### 🛠️ Technologies & Tools
+- **Programming Languages:** Python, C++, C  
+- **Frameworks & Middleware:** ROS 2 (Robot Operating System), PCL (Point Cloud Library)  
+- **Algorithms & SLAM Approaches:** Iterative Closest Point (ICP), Fast-LIO2 (LiDAR-Inertial Odometry)  
+- **Hardware:** 3D LiDAR sensor mounted on a mobile robot  
+- **Visualization & Simulation:** RViz, Gazebo  
+- **Data Processing:** NumPy, Open3D, Matplotlib  
 
 ---
 
