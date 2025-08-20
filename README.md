@@ -66,6 +66,19 @@ The methodology is not limited to a single robot:
 
 ---
 
+## 📂 Published Datasets
+The datasets generated during this project (point clouds, processed maps, and related experiments) have been **published on Zenodo** to ensure reproducibility and open access for the research community.  
+
+- **Zenodo DOI:** [10.5281/zenodo.15301791](https://doi.org/10.5281/zenodo.15301791)  
+- **Repository link:** [Zenodo record page](https://zenodo.org/records/15301791)  
+
+The datasets include:  
+- Raw and processed **3D point clouds**.  
+- Maps generated through **ICP** and **Fast-LIO2**.  
+- Example trajectories and experiments for benchmarking.
+
+---
+
 ## 📂 Repository Structure
 ```bash
 TFG/
