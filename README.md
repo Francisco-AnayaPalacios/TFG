@@ -66,12 +66,6 @@ The methodology is not limited to a single robot:
 
 ---
 
-## 🖼️ Screenshots
-*Point cloud overlaid with 3D building models and aerial photographs.*  
-*Mapped building: ETSII – University of Málaga (Campus de Teatinos).*  
-
----
-
 ## 📂 Repository Structure
 ```bash
 TFG/
