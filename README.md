@@ -56,13 +56,16 @@ This implementation provides a **LiDAR-based alternative**, offering consistent 
 
 ---
 
-## 🔮 Possible Future Implementations
-The methodology is not limited to a single robot:  
-- **Multi-robot fleets:** once an environment has been mapped, the **3D model can be reused**, allowing other robots to localize without remapping.  
-- **Autonomous vehicles:** robust backup system in **GPS-denied zones**, especially relevant for drones or ground robots operating in altitude-sensitive tasks.  
-- **High-altitude navigation:** precise localization in vertical structures (e.g., tall buildings, towers, industrial plants) where GPS becomes unreliable.  
-- **Rescue robotics & industrial inspection:** reliable navigation in collapsed structures, underground tunnels, or multi-level environments.  
-- **Smart infrastructure:** integration with digital twins and urban planning systems.  
+📊 Experiments & Evaluation
+
+To ensure robustness, I developed automated testing scripts to benchmark the SLAM and mapping pipeline under different configurations.  
+Key experiments included:
+
+- **Voxelization analysis**: maps were reconstructed using multiple voxel resolutions to evaluate trade-offs between accuracy and computational efficiency.  
+- **Error metrics**: trajectory drift and point cloud alignment error were computed automatically for each configuration.  
+- **Automated workflow**: evaluation scripts streamlined testing across simulation and real-world datasets, ensuring reproducibility of results.
+
+This systematic evaluation allowed the identification of optimal voxel sizes that preserved accuracy (< X cm RMSE) while reducing computational load, contributing to a more robust and deployable solution.
 
 ---
 
@@ -73,6 +76,15 @@ Within the scope of this thesis, a **Mobile Robot Dataset** was collected using 
 The dataset has been curated and made publicly available to support **benchmarking, validation, and further research** in SLAM, robot localization, and 3D perception.  
 
 📎 [Access the dataset on Zenodo (DOI: 10.5281/zenodo.15301791)](https://doi.org/10.5281/zenodo.15301791)
+
+---
+## 🔮 Possible Future Implementations
+The methodology is not limited to a single robot:  
+- **Multi-robot fleets:** once an environment has been mapped, the **3D model can be reused**, allowing other robots to localize without remapping.  
+- **Autonomous vehicles:** robust backup system in **GPS-denied zones**, especially relevant for drones or ground robots operating in altitude-sensitive tasks.  
+- **High-altitude navigation:** precise localization in vertical structures (e.g., tall buildings, towers, industrial plants) where GPS becomes unreliable.  
+- **Rescue robotics & industrial inspection:** reliable navigation in collapsed structures, underground tunnels, or multi-level environments.  
+- **Smart infrastructure:** integration with digital twins and urban planning systems.  
 
 ---
 
