@@ -56,9 +56,9 @@ This implementation provides a **LiDAR-based alternative**, offering consistent 
 
 ---
 
-📊 Experiments & Evaluation
+## 🔬 Experiments & Evaluation
 
-To ensure robustness, I developed automated testing scripts to benchmark the SLAM and mapping pipeline under different configurations.  
+To ensure robustness, automated testing scripts to benchmark the SLAM and mapping pipeline under different configurations were developped.  
 Key experiments included:
 
 - **Voxelization analysis**: maps were reconstructed using multiple voxel resolutions to evaluate trade-offs between accuracy and computational efficiency.  
